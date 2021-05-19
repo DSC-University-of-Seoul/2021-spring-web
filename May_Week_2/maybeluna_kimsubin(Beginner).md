@@ -56,4 +56,58 @@ html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능
 
 3. 콘솔로 JavaScript 사용
 
-이미 만들어진 웹사이트를 필요에 따라 사용 가능  
+이미 만들어진 웹사이트를 필요에 따라 사용 가능
+
+# 클론코딩 해보기 전 주요 개념
+
+## CSS Position-210511
+
+### value
+
+1. static: 정적
+2. realative: 기존 위치 기준 이동
+3. absolute: 아이템이 담겨있는 박스 기준 이동
+4. fixed: 웹페이지 기준 이동
+5. stickiy: 스크롤링 되어도 원래 자리에 배치
+6. inherit: 부모 태그 속성갑 상속
+
+### 좌표 지정
+
+- top
+- bottom
+- left
+- right
+
+## CSS flexbox-210512
+
+### 속성값
+
+1. 박스 적용
+  - display
+  - flex-direction: 중심축 결정
+  - flex-wrap: wrapping
+  - flex-flow: flex-direction + flex-wrap
+  - justify-content: 중심축 정렬
+  - align-items: 반대축 정렬 (아이템 전체의 위치)
+  - align-content: 반대축 정렬 (라인들의 정렬)
+
+2. 아이템 적용
+  - order: 순서
+  - flex-grow: 아이템이 커질 때 변화
+  - flex-shrink: 아이템이 줄어들 때 변화
+  - flex-basis: 아이템이 기본적으로 차지하는 비율
+  - align-self: 아이템 하나 당 정렬
+
+### 축
+
+중심축과 반대축이 존재  
+
+수직축을 중심축을 지정하면 수평축이 반대축으로 지정  
+
+수평축을 중심축으로 지정하면 수직축이 반대축으로 지정  
+
+## 실제 클론코딩-210514
+
+```html
+``
+
