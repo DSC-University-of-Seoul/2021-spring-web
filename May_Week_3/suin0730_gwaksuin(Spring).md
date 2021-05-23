@@ -19,7 +19,7 @@ REST API는 리소스, 메소드, 메세지로 구성됩니다.
 
 아래 코드에서 리소스, 메소드, 메세지를 찾아봅시다.
 
-```
+```java
 HTTP DELETE, http://suinweb/posts
 {
     "posts":{
@@ -27,6 +27,7 @@ HTTP DELETE, http://suinweb/posts
     }
 }
 ```
+
 * suinweb/posts(리소스): suinweb에서 posts라는 자원의 위치를 나타내는 주소
 * HTTP DELETE(메소드): API가 수행하고자 하는 삭제 행위
 * posts 중 id가 1인 것(메세지): 1을 id로 가지는 posts
@@ -38,7 +39,7 @@ HTTP DELETE, http://suinweb/posts
 기업들의 취업 공고를 보면 REST API 설계 경험이 있는 사람을 우대한다는 문구를 어렵지 않게 확인할 수 있습니다.
 REST API를 어떻게 읽는지는 알겠는데, 이게 어떤 장점을 가지길래 기업의 우대조건에 포함될까요?
 놀랍게도 REST의 장점은 쉽게 읽을 수 있다는 점 그 자체입니다.
-우리는 API를 구성하는 리소스, 메소드, 메세지만 있다면 그 인터페이스가 의도한 바를 쉽게 파악할 수 있습니다. 
+우리는 API를 구성하는 리소스, 메소드, 메세지만 있다면 그 인터페이스가 의도한 바를 쉽게 파악할 수 있습니다.
 이러한 성질은 유지보수가 필수적인 개발 작업에서 큰 장점이라 할 수 있습니다.
 
 또한 REST는 HTTP 프로토콜을 그대로 사용합니다.
@@ -90,11 +91,11 @@ layered system의 단점인 오버헤드는 shared caching를 사용해 중재�
  10. REST API가 일부 프록시 서버에만 제한되지 않도록 하기 위해 HTTP method를 오버라이드하기
 
 ## References
-- https://bcho.tistory.com/953?category=252770
-- https://bcho.tistory.com/954?category=252770
-- https://ko.wikipedia.org/wiki/REST
-- https://meetup.toast.com/posts/92
-- https://wallees.wordpress.com/2018/04/19/rest-api-%EC%9E%A5%EB%8B%A8%EC%A0%90/
-- http://www.incodom.kr/REST
-- https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-- https://itstory.tk/entry/%EB%8D%94-%EB%82%98%EC%9D%80-RESTful-API%EB%A5%BC-%EC%84%A4%EA%B3%84%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%B5%9C%EA%B3%A0%EC%9D%98-10%EA%B0%80%EC%A7%80-%EC%97%B0%EC%8A%B5%EB%B0%A9%EB%B2%95
+
+* <https://bcho.tistory.com/953?category=252770>
+* <https://bcho.tistory.com/954?category=252770>
+* <https://ko.wikipedia.org/wiki/REST>
+* <https://meetup.toast.com/posts/92>
+* <https://wallees.wordpress.com/2018/04/19/>rest-api-%EC%9E%A5%EB%8B%A8%EC%A0%90/>
+* <http://www.incodom.kr/REST>
+* <https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.html>
