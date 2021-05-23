@@ -8,7 +8,7 @@ REpresentational State Transfer(REST)는 하이퍼미디어를 위한 *소프트
 
 Application Programming Interface(API)는 어플리케이션 소프트웨어를 구축하기 위한 정의들의 집합으로 표현합니다.
 
-REST API는 웹 상에 존재하는 리소스를 전송 계층에 종속되지 않게 전송하기 위한 인터페이스를 뜻하지만, 
+REST API는 웹 상에 존재하는 리소스를 전송 계층에 종속되지 않게 전송하기 위한 인터페이스를 뜻하지만,
 엄격한 의미로는 자원을 정의하고 주소를 작성하는 방법 전반을 일컫기도 합니다.
 
 REST API는 리소스, 메소드, 메세지로 구성됩니다.
