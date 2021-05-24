@@ -483,7 +483,7 @@ var Body = {
 
 # 클론코딩02-210519~20
 
-[youtube_mobile](https://maybeluna.github.io/project01_clonecoding/nav/nav_index.html)
+[youtube_mobile](https://maybeluna.github.io/project01_clonecoding/youtube_m/youtube_m_index.html)
 
 ## process
 
