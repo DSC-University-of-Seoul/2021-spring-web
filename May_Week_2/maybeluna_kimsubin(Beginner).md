@@ -1,6 +1,6 @@
-# 생활코딩과 함께하는 WEB
+# 생활코딩 및 클론코딩과 함께하는 WEB
 
-## WEB02(JavaScript)-210510
+## 생활코딩 WEB02(JavaScript)-210510
 
 ### JavaScript란?
 
@@ -13,7 +13,7 @@
 
 html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능  
 
-1. JavaScript를 사용을 알릴 때 `<script></script>` 태그를 사용  
+1번 JavaScript를 사용을 알릴 때 `<script></script>` 태그를 사용  
 
 ```html
 <!DOCTYPE html>
@@ -31,10 +31,10 @@ html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능
 </html>
 ```
 
-2. on 속성의 속성 값으로 JavaScript 사용
+2번 on 속성의 속성 값으로 JavaScript 사용
 
- on 속성 뒤는 무조건 JavaScript가 오는데 이러한 속성을 **event**라고 한다.   
- 웹브라우저 위에서 여러 사건 중 유용한 이벤트를 정의해놓았다. 
+ on 속성 뒤는 무조건 JavaScript가 오는데 이러한 속성을 **event**라고 한다.  
+ 웹브라우저 위에서 여러 사건 중 유용한 이벤트를 정의해놓았다.  
 
 ```html
 <!DOCTYPE html>
@@ -54,11 +54,9 @@ html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능
 </html>
 ```
 
-3. 콘솔로 JavaScript 사용
+3번 콘솔로 JavaScript 사용
 
 이미 만들어진 웹사이트를 필요에 따라 사용 가능
-
-# 클론코딩 해보기 전 주요 개념
 
 ## CSS Position-210511
 
@@ -82,21 +80,23 @@ html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능
 
 ### 속성값
 
-1. 박스 적용
-  - display
-  - flex-direction: 중심축 결정
-  - flex-wrap: wrapping
-  - flex-flow: flex-direction + flex-wrap
-  - justify-content: 중심축 정렬
-  - align-items: 반대축 정렬 (아이템 전체의 위치)
-  - align-content: 반대축 정렬 (라인들의 정렬)
+1번 박스 적용
 
-2. 아이템 적용
-  - order: 순서
-  - flex-grow: 아이템이 커질 때 변화
-  - flex-shrink: 아이템이 줄어들 때 변화
-  - flex-basis: 아이템이 기본적으로 차지하는 비율
-  - align-self: 아이템 하나 당 정렬
+- display
+- flex-direction: 중심축 결정
+- flex-wrap: wrapping
+- flex-flow: flex-direction + flex-wrap
+- justify-content: 중심축 정렬
+- align-items: 반대축 정렬 (아이템 전체의 위치)
+- align-content: 반대축 정렬 (라인들의 정렬)
+
+2번 아이템 적용
+
+- order: 순서
+- flex-grow: 아이템이 커질 때 변화
+- flex-shrink: 아이템이 줄어들 때 변화
+- flex-basis: 아이템이 기본적으로 차지하는 비율
+- align-self: 아이템 하나 당 정렬
 
 ### 축
 
@@ -106,7 +106,7 @@ html은 정적 JavaSript는 동적이라서 계산기처럼 사용도 가능
 
 수평축을 중심축으로 지정하면 수직축이 반대축으로 지정  
 
-# 클론코딩01-210513~14
+## 클론코딩01-210513~14
 
 [nev](https://maybeluna.github.io/project01_clonecoding/nav/nav_index.html)
 
