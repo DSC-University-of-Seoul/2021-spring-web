@@ -112,7 +112,9 @@
 -> 여전히 똑같은 에러 발생  
 3. NPM 사이트에서 추천해준 설치 방법으로
 `npm install -g markdownlint-cli` 실행  
--> ![screenshot]](https://user-images.githubusercontent.com/72259053/120327129-64a97c00-c324-11eb-82e5-f4b3281b8136.PNG)  
+-> ![screenshot]](https:/user-imagesgithubusercontent
+.com/72259053/120327129-64a97c00
+-c324-11eb-82e5-f4b3281b8136.PNG)  
 위와 같이 뜨면서 전혀 넘어가지 않음  
 
 ### 결론
@@ -132,8 +134,9 @@ VScode 내에 있는 markdown.lint를 사용할 예정
 - 내가 좋아하는 미디어 소개하는 웹사이트 만들기
 - 분야는 영화, 책, 음악이며 각 분야마다 다른 효과(Javascript) 적용
 
-![계획](https://user-images.githubusercontent.com/
-72259053/120358906-055a6480-c342-11eb-849e-00680597efaa.png)
+![계획](https://user-images.githubusercontent
+.com/72259053/120358906-055a6480-c342-
+11eb-849e-00680597efaa.png)
 
 ### 클론코딩04 과정
 
